@@ -33,7 +33,7 @@ class ListOfTopicsFragment : Fragment() {
      list.add(Model("Functions", R.drawable.f))
      list.add(Model("Conditionals", R.drawable.c))
 
-     listView.adapter = Adapter(this, R.layout.row, list)
+     listView.adapter = activity?.let { Adapter(it, R.layout.row, list) }
 
      return binding.root
 

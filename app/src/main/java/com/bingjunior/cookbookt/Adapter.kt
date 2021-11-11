@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 
-class Adapter(var context: Activity, var resources:Int, var items:List<Model>):ArrayAdapter<Model>(context, resources, items) {
+class Adapter(private var context: Activity, var resources:Int, var items:List<Model>):ArrayAdapter<Model>(context, resources, items) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
