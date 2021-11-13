@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">CookBooKt</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email">E-mail</string>
     <string name="password">Password</string>
@@ -10,5 +9,93 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
     <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="variables">Variables</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="share_me">Share Me</string>
+    <string name="desc_variables"> Thousands of years ago, a Greek fellow named Archimedes roughly figured out how to measure the length of the outside of a circle, called the circumference. You probably remember the equation the good old days of junior high school:
+
+Circumference = 2 x pi x r
+“The circumference of a circle is equal to 2 times π times the radius of the circle”.
+
+In the equation above, the letter r isn’t a number itself. It’s a letter that represents the radius - a number that measures the distance between the center of the circle and the edge of the circle. We call r a variable, because the radius can vary, depending on the size of the circle. In other words, the variable r isn’t a number itself; it’s just sort of a “bucket” that holds a number - any number. Variables aren’t just for algebra and geometry. They’re also used all the time in programming, where they serve the same purpose: holding values. In Kotlin, you can create a variable and put a number into it like this:
+
+var r = 5.2 When we write var r, we’re declaring a new variable called r. You can think of declaring a variable as creating a bucket.
+When we write r = 5.2, we’re assigning the value of 5.2 to the variable r. In other words, we’re putting the number 5.2 into the bucket. </string>
+    <string name="sign_out">Sign Out</string>
+    <string name="desc_types">In Kotlin, different variables can hold different kinds of values. The kind of value that a variable holds is called its type.
+
+Let’s take another look at the variables radius and pi:
+
+var radius = 5.2
+val pi = 3.14 In this case, both radius and pi represent numbers that have a decimal point, which is a type that Kotlin calls a Double. If you want to, you can tell Kotlin the type of the variable yourself, like this:
+
+
+var radius: Double = 5.2
+val pi: Double = 3.14 When we do this, we are explicitly specifying the type.
+
+Very often, you do not have to specify the type of a variable yourself. In that case, Kotlin will do its best to infer the type based on whatever it is that you’re assigning to the variable. That process is called type inference.
+
+So, when we write this…
+
+var radius = 5.2 …then Kotlin can tell that 5.2 is a Double, so it automatically uses Double as the type of radius.</string>
+    <string name="desc_functions">That code calculates the circumference of a circle that has a radius of 5.2. But of course, not all circles have a radius of 5.2! What happens if we also want to determine the circumference of a circle that has a radius of 6.7? Or 10.0?
+
+Circles of different sizes
+Well, we could just write out the equation multiple times.
+
+val pi = 3.14
+
+var radius = 5.2
+val circumferenceOfSmallCircle = 2 * pi * radius
+
+radius = 6.7
+val circumferenceOfMediumCircle = 2 * pi * radius
+
+radius = 10.0
+val circumferenceOfLargeCircle = 2 * pi * radius This certainly works, but wow - look at how we had to type the same thing over and over again!</string>
+    <string name="desc_expressions">Let’s look at that equation again:
+
+Circumference = 2 x pi x r
+We’ve already created a variable for pi and a variable for radius, so now we just need Kotlin to do some math for us, and we can get the circumference of any circle, regardless of how big that circle is.
+
+All we have to do is multiply together 2, pi, and radius. In Kotlin, as in most programming languages, multiplication isn’t represented with an x, it’s represented with an asterisk: *, so our code can look like this:
+
+var radius = 5.2
+val pi = 3.14
+
+val circumference = 2 * pi * radius So far we’ve only assigned simple values - such as 5.2 and 3.14. This is the first time we’re assigning something more complex: 2 * pi * radius.
+
+When Kotlin sees this, it simply calculates the result for you - it multiplies 2 times pi times radius, and then, of course, it takes the resulting value and assigns it to the variable named circumference. In this case (with a radius of 5.2), circumference will equal 32.656.
+
+A circle with the circumference calculated.
+Since 2 * pi * radius can be calculated into a value like this, we say that it can be evaluated. Code that can be evaluated is called an expression. Here are a few examples of expressions:
+
+2 + 3
+2 * pi * r
+pi * r * r
+Variables by themselves are also expressions - they evaluate to whatever value they hold:
+
+radius
+pi </string>
+    <string name="desc_conditionals">You might have heard the fairy tale of Goldilocks and the Three Bears.
+
+Papa Bear, Mama Bear, and Baby Bear lived in a quaint house nestled in the woods. One day, after preparing some porridge for breakfast, the three bears decided to go out for a leisurely stroll.
+
+Meanwhile, a young girl named Goldilocks peeked in through the window and saw three bowls of porridge. Since she was hungry and saw nobody home, she decided to walk on inside and taste the porridge for herself.
+
+First, she tried Papa Bear’s porridge, and exclaimed, “It’s too hot!”
+Then she tried Mama Bear’s porridge, and complained, “It’s too cold!”
+Finally, she tried Baby Bear’s porridge, and found the temperature to be perfect. “It’s just right!” she said, and ate the entire bowl. Kotlin gives us a powerful conditional called when, which enables us to basically write that same table in our code. Here’s how it looks.
+
+val temperature = 48
+
+val reaction = when {
+	temperature > 55 -> "It's too hot!"
+	temperature  40 -> "It's too cold!"
+	else             -> "It's just right!"
+} </string>
+    <string name="conditionals">Conditionals</string>
+    <string name="expressions">Expressions</string>
+    <string name="functions">Functions</string>
 
 </resources>

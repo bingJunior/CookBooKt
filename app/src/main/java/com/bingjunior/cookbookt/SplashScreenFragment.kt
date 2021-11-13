@@ -22,6 +22,7 @@ class SplashScreenFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentSplashScreenBinding.inflate(inflater, container, false)
         navCon = NavHostFragment.findNavController(this)
+
         return binding.root
     }
 

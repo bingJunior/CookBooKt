@@ -5,11 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.bingjunior.cookbookt.databinding.FragmentListOfTopicsBinding
+import kotlin.system.measureTimeMillis
 
 class ListOfTopicsFragment : Fragment() {
 
@@ -34,25 +37,32 @@ class ListOfTopicsFragment : Fragment() {
      list.add(Model("Conditionals", R.drawable.c))
 
      listView.adapter = activity?.let { Adapter(it, R.layout.row, list) }
+     listView.isClickable = true
 
-     return binding.root
-
-    /* listView.setOnItemClickListener{parent:AdapterView<*>, view:View, position:Int, id:Long ->
+     listView.setOnItemClickListener { _, _, position, _ ->
          if (position == 0) {
-             Toast.makeText(this@ListOfTopicsFragment, "You clicked on Variables", Toast.LENGTH_LONG).show()
+             Toast.makeText(activity, "You clicked on Variables", Toast.LENGTH_SHORT).show()
+             navCon.navigate(R.id.action_listOfTopicsFragment_to_variablesFragment)
+         }
+         if (position == 1) {
+             Toast.makeText(activity, "You clicked on Expressions", Toast.LENGTH_SHORT).show()
+             navCon.navigate(R.id.action_listOfTopicsFragment_to_expressionsFragment)
+         }
+         if (position == 2) {
+             Toast.makeText(activity, "You clicked on Types", Toast.LENGTH_SHORT).show()
+             navCon.navigate(R.id.action_listOfTopicsFragment_to_typesFragment)
+         }
+         if (position == 3) {
+             Toast.makeText(activity, "You clicked on Functions", Toast.LENGTH_SHORT).show()
+             navCon.navigate(R.id.action_listOfTopicsFragment_to_functionsFragment)
+         }
+         if (position == 4) {
+             Toast.makeText(activity, "You clicked on Conditionals", Toast.LENGTH_SHORT).show()
+             navCon.navigate(R.id.action_listOfTopicsFragment_to_conditionalsFragment)
          }
      }
 
-
+     return binding.root
 }
 
-override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-    binding.clickSignIn.setOnClickListener {
-        navCon.navigate(R.id.action_signUpFragment_to_signInFragment)
-    }
-    binding.signUpButton.setOnClickListener {
-        navCon.navigate(R.id.action_signUpFragment_to_listOfTopicsFragment)
-    }
-*/
-}
 }

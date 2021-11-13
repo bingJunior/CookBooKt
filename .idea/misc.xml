@@ -3,17 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/btn_bg.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/layout_bg.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/activity_main.xml" value="0.13978494623655913" />
-        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_details.xml" value="0.18" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_conditionals.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_details.xml" value="0.2290748898678414" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_expressions.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_list_of_topics.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_sign_in.xml" value="0.33" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_splash_screen.xml" value="0.16455696202531644" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_topics.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_types.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_variables.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/row.xml" value="0.22" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

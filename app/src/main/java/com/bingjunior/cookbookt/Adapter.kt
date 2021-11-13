@@ -19,10 +19,6 @@ class Adapter(private var context: Activity, var resources:Int, var items:List<M
         val topicImageView:ImageView = view.findViewById(R.id.topicImageView)
         val topicTextView:TextView = view.findViewById(R.id.topicTextView)
 
-        //var mItem:Model = items[position]
-        //topicImageView.setImageDrawable(context.resources.getDrawable(mItem.image))
-        //topicTextView.text = mItem.topic
-
         topicImageView.setImageResource(items[position].image)
         topicTextView.text = items[position].topic
 

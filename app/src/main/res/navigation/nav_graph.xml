@@ -14,11 +14,13 @@
             android:id="@+id/action_splashScreenFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
     </fragment>
+
     <activity
         android:id="@+id/mainActivity"
         android:name="com.bingjunior.cookbookt.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
+
     <fragment
         android:id="@+id/signInFragment"
         android:name="com.bingjunior.cookbookt.SignInFragment"
@@ -31,6 +33,7 @@
             android:id="@+id/action_signInFragment_to_listOfTopicsFragment"
             app:destination="@id/listOfTopicsFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.bingjunior.cookbookt.SignUpFragment"
@@ -43,18 +46,77 @@
             android:id="@+id/action_signUpFragment_to_listOfTopicsFragment"
             app:destination="@id/listOfTopicsFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/listOfTopicsFragment"
         android:name="com.bingjunior.cookbookt.ListOfTopicsFragment"
         android:label="fragment_list_of_topics"
         tools:layout="@layout/fragment_list_of_topics" >
         <action
-            android:id="@+id/action_listOfTopicsFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
+            android:id="@+id/action_listOfTopicsFragment_to_variablesFragment"
+            app:destination="@id/variablesFragment" />
+        <action
+            android:id="@+id/action_listOfTopicsFragment_to_typesFragment"
+            app:destination="@id/typesFragment" />
+        <action
+            android:id="@+id/action_listOfTopicsFragment_to_conditionalsFragment"
+            app:destination="@id/conditionalsFragment" />
+        <action
+            android:id="@+id/action_listOfTopicsFragment_to_expressionsFragment"
+            app:destination="@id/expressionsFragment" />
+        <action
+            android:id="@+id/action_listOfTopicsFragment_to_functionsFragment"
+            app:destination="@id/functionsFragment" />
     </fragment>
+
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.bingjunior.cookbookt.DetailsFragment"
+        android:id="@+id/variablesFragment"
+        android:name="com.bingjunior.cookbookt.VariablesFragment"
         android:label="fragment_details"
-        tools:layout="@layout/fragment_details" />
+        tools:layout="@layout/fragment_variables" >
+        <action
+            android:id="@+id/action_variablesFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/functionsFragment"
+        android:name="com.bingjunior.cookbookt.FunctionsFragment"
+        android:label="fragment_topics"
+        tools:layout="@layout/fragment_functions" >
+        <action
+            android:id="@+id/action_functionsFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expressionsFragment"
+        android:name="com.bingjunior.cookbookt.ExpressionsFragment"
+        android:label="fragment_expressions"
+        tools:layout="@layout/fragment_expressions" >
+        <action
+            android:id="@+id/action_expressionsFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/typesFragment"
+        android:name="com.bingjunior.cookbookt.TypesFragment"
+        android:label="fragment_types"
+        tools:layout="@layout/fragment_types" >
+        <action
+            android:id="@+id/action_typesFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/conditionalsFragment"
+        android:name="com.bingjunior.cookbookt.ConditionalsFragment"
+        android:label="fragment_conditionals"
+        tools:layout="@layout/fragment_conditionals" >
+        <action
+            android:id="@+id/action_conditionalsFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
 </navigation>

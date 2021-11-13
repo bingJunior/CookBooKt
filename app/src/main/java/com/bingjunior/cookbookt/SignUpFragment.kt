@@ -11,6 +11,7 @@ import com.bingjunior.cookbookt.databinding.FragmentSignUpBinding
 import com.google.android.material.textfield.TextInputEditText
 
 class SignUpFragment : Fragment() {
+
     private var _binding: FragmentSignUpBinding? = null
     private val binding get() = _binding!!
     private lateinit var navCon : NavController
