@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">CookBooKt</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email">E-mail</string>
     <string name="password">Password</string>
     <string name="sign_in">Sign In</string>
@@ -10,7 +9,6 @@
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
     <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
     <string name="variables">Variables</string>
-    <string name="lorem_ipsum">Lorem Ipsum</string>
     <string name="share_me">Share Me</string>
     <string name="desc_variables"> Thousands of years ago, a Greek fellow named Archimedes roughly figured out how to measure the length of the outside of a circle, called the circumference. You probably remember the equation the good old days of junior high school:
 

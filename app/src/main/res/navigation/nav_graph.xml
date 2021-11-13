@@ -9,7 +9,7 @@
         android:id="@+id/splashScreenFragment"
         android:name="com.bingjunior.cookbookt.SplashScreenFragment"
         android:label="fragment_splash_screen"
-        tools:layout="@layout/fragment_splash_screen" >
+        tools:layout="@layout/fragment_splash_screen">
         <action
             android:id="@+id/action_splashScreenFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
@@ -25,7 +25,7 @@
         android:id="@+id/signInFragment"
         android:name="com.bingjunior.cookbookt.SignInFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" >
+        tools:layout="@layout/fragment_sign_in">
         <action
             android:id="@+id/action_signInFragment_to_signUpFragment"
             app:destination="@id/signUpFragment" />
@@ -38,7 +38,7 @@
         android:id="@+id/signUpFragment"
         android:name="com.bingjunior.cookbookt.SignUpFragment"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" >
+        tools:layout="@layout/fragment_sign_up">
         <action
             android:id="@+id/action_signUpFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
@@ -51,7 +51,7 @@
         android:id="@+id/listOfTopicsFragment"
         android:name="com.bingjunior.cookbookt.ListOfTopicsFragment"
         android:label="fragment_list_of_topics"
-        tools:layout="@layout/fragment_list_of_topics" >
+        tools:layout="@layout/fragment_list_of_topics">
         <action
             android:id="@+id/action_listOfTopicsFragment_to_variablesFragment"
             app:destination="@id/variablesFragment" />
@@ -73,7 +73,7 @@
         android:id="@+id/variablesFragment"
         android:name="com.bingjunior.cookbookt.VariablesFragment"
         android:label="fragment_details"
-        tools:layout="@layout/fragment_variables" >
+        tools:layout="@layout/fragment_variables">
         <action
             android:id="@+id/action_variablesFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
@@ -83,7 +83,7 @@
         android:id="@+id/functionsFragment"
         android:name="com.bingjunior.cookbookt.FunctionsFragment"
         android:label="fragment_topics"
-        tools:layout="@layout/fragment_functions" >
+        tools:layout="@layout/fragment_functions">
         <action
             android:id="@+id/action_functionsFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
@@ -93,7 +93,7 @@
         android:id="@+id/expressionsFragment"
         android:name="com.bingjunior.cookbookt.ExpressionsFragment"
         android:label="fragment_expressions"
-        tools:layout="@layout/fragment_expressions" >
+        tools:layout="@layout/fragment_expressions">
         <action
             android:id="@+id/action_expressionsFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
@@ -103,7 +103,7 @@
         android:id="@+id/typesFragment"
         android:name="com.bingjunior.cookbookt.TypesFragment"
         android:label="fragment_types"
-        tools:layout="@layout/fragment_types" >
+        tools:layout="@layout/fragment_types">
         <action
             android:id="@+id/action_typesFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
@@ -113,7 +113,7 @@
         android:id="@+id/conditionalsFragment"
         android:name="com.bingjunior.cookbookt.ConditionalsFragment"
         android:label="fragment_conditionals"
-        tools:layout="@layout/fragment_conditionals" >
+        tools:layout="@layout/fragment_conditionals">
         <action
             android:id="@+id/action_conditionalsFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
