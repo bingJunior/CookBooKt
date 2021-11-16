@@ -77,6 +77,9 @@
         <action
             android:id="@+id/action_variablesFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_variablesFragment_to_listOfTopicsFragment"
+            app:destination="@id/listOfTopicsFragment" />
     </fragment>
 
     <fragment
@@ -87,6 +90,9 @@
         <action
             android:id="@+id/action_functionsFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_functionsFragment_to_listOfTopicsFragment"
+            app:destination="@id/listOfTopicsFragment" />
     </fragment>
 
     <fragment
@@ -97,6 +103,9 @@
         <action
             android:id="@+id/action_expressionsFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_expressionsFragment_to_listOfTopicsFragment"
+            app:destination="@id/listOfTopicsFragment" />
     </fragment>
 
     <fragment
@@ -107,6 +116,9 @@
         <action
             android:id="@+id/action_typesFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_typesFragment_to_listOfTopicsFragment"
+            app:destination="@id/listOfTopicsFragment" />
     </fragment>
 
     <fragment
@@ -117,6 +129,9 @@
         <action
             android:id="@+id/action_conditionalsFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_conditionalsFragment_to_listOfTopicsFragment"
+            app:destination="@id/listOfTopicsFragment" />
     </fragment>
 
 </navigation>

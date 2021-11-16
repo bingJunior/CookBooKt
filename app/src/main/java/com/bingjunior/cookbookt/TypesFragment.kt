@@ -42,5 +42,10 @@ class TypesFragment : Fragment() {
         binding.signOutButton.setOnClickListener {
             navCon.navigate(R.id.action_typesFragment_to_signInFragment)
         }
+
+        //go back button
+        binding.goBackButton.setOnClickListener {
+            navCon.navigate(R.id.action_typesFragment_to_listOfTopicsFragment)
+        }
     }
 }

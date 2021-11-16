@@ -43,6 +43,11 @@ class FunctionsFragment : Fragment() {
         binding.signOutButton.setOnClickListener {
             navCon.navigate(R.id.action_functionsFragment_to_signInFragment)
         }
+
+        //go back button
+        binding.goBackButton.setOnClickListener {
+            navCon.navigate(R.id.action_functionsFragment_to_listOfTopicsFragment)
+        }
     }
 }
 

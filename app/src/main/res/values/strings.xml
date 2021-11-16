@@ -95,5 +95,6 @@ val reaction = when {
     <string name="conditionals">Conditionals</string>
     <string name="expressions">Expressions</string>
     <string name="functions">Functions</string>
+    <string name="go_back">Go Back</string>
 
 </resources>

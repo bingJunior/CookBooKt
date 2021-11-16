@@ -43,6 +43,11 @@ class ConditionalsFragment : Fragment() {
         binding.signOutButton.setOnClickListener {
             navCon.navigate(R.id.action_conditionalsFragment_to_signInFragment)
         }
+
+        //go back button
+        binding.goBackButton.setOnClickListener {
+            navCon.navigate(R.id.action_conditionalsFragment_to_listOfTopicsFragment)
+        }
     }
 }
 

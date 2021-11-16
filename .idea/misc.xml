@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/btn_bg.xml" value="0.1" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/ic_back.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/drawable/layout_bg.xml" value="0.1" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_conditionals.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_details.xml" value="0.2290748898678414" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_expressions.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_functions.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_list_of_topics.xml" value="0.1" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_sign_in.xml" value="0.33" />
         <entry key="..\:/Users/YASIR RAZA/AndroidStudioProjects/CookBooKt/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
